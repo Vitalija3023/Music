@@ -52,6 +52,8 @@ border: 1px dotted #008000;
 
 }
 
+
+
 .block-item-1::before{
    content: " ";
    display: inline-block;
@@ -218,7 +220,7 @@ border: 1px dotted #008000;
    display: inline-block;
    width: 50px;
    height: 50px;
-   background: url('../img/24783-orig.jpeg') center/ 50px auto no-repeat;
+   background: url('../img/калуш.jpeg') center/ 50px auto no-repeat;
   
    
 }
@@ -236,7 +238,7 @@ border: 1px dotted #008000;
    display: inline-block;
    width: 50px;
    height: 50px;
-   background: url('../img//In_da_Club.jpeg') center/ 50px auto no-repeat;
+   background: url('../img/manes.jpeg') center/ 50px auto no-repeat;
   
    
 }
