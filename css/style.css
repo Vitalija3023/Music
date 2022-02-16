@@ -1,0 +1,251 @@
+@import url('null.css');
+
+.wrapper{
+   min-height: 100%;
+   overflow: hidden;
+}
+
+.container{
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+body{
+   font-family:'Lato';
+   color:#fff;
+   font-size: 16px;
+   line-height: 1.6;
+   background: rgb(0, 0, 0) url('../img/headphones_PNG7640.png') center / 2000px 1000px no-repeat ;
+   
+
+}
+
+.center{
+   max-width:700px;
+   margin:150px auto;
+   
+
+}
+
+h1{
+   font-size: 45px;
+   font-weight: 600;
+   text-transform: uppercase;
+   text-align: center;
+
+}
+/*Першій блок*/
+.block-item{
+   box-shadow:0 0 50px 50px #080808,0 0 100px 40px #fcfcfc9a;
+   border-radius: 10px;
+   max-height: 500px;
+   overflow: auto;
+   margin: 100px 0 0 0;
+   background:  linear-gradient(157deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6573223039215687) 43%, rgba(0,128,0,0) 100%, rgba(46,255,0,1) 100%), url('../img/singing-in-the-car.jpeg') center/ cover no-repeat;
+   /* padding:  0 0 0 150px; */
+   
+}
+
+.block-item-1{
+padding: 15px 0 15px 50px;
+border: 1px dotted #008000;
+
+}
+
+.block-item-1::before{
+   content: " ";
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   background: url('../img/weekend.webp') center/ 50px auto no-repeat;
+   margin: 0 0px 0 0px;
+   
+}
+
+.block-item-subtitle{
+   display: inline-block;
+   text-transform: uppercase;
+   max-width:600px;
+}
+.block-item-subtitle::before{
+   content: "";
+   
+   width: 13px;
+   height: 13px;
+   display: inline-block;
+   background:green  url('../img/Vector.svg') center / 7px no-repeat;
+   border-radius: 50%;
+   border: 1px solid #fff;
+   padding: 3px;
+   margin: 0 5px 0 0;
+     
+}
+
+.block-item-subtitle:hover::before{
+   background-color: rgb(39, 156, 39);
+   box-shadow: 0 0 20px 10px rgba(39, 156, 39, 0.692);
+}
+
+.block-item-subtitle::after{
+   content: " ";
+   display: inline-block;
+   width: 50px;
+   height: 30px;
+   background: url('../img/wowgif.gif') center/ cover no-repeat;
+   padding:  0 0 0 400px;
+   
+
+}
+
+.link{
+   background: #008000;
+   padding: 5px 10px ;
+   border-radius: 20px;
+   margin: 0 0 0 20px;
+   font-size: 12px;
+}
+
+.link::after{
+   content: " ";
+   width: 15px;
+   height: 15px;
+   display: inline-block;
+   background:url("../img/fluent_speaker-2-24-regular.svg") 2px 3.5px / 13px no-repeat;
+
+}
+
+.link:hover{
+  
+   border: 2px solid green;
+   background: rgba(0,0,0,0);
+	color:#fff;
+	box-shadow: inset 0 0 0 3px green;
+   box-shadow: 0 0 7px 10px rgba(0, 128, 0, 0.466);
+
+
+}
+
+.link:active{
+   background: #008000;
+   padding: 3px 10px ;
+   border-radius: 20px;
+   margin: 0 0 0 20px;
+   box-shadow:inset 0 0 7px 10px #008000(1, 46, 1, 0.466);
+}
+
+/*Другий блок*/
+
+.block-item-2{
+   padding: 15px 0 15px 50px;
+   border: 1px dotted #008000;
+   }
+
+.block-item-2::before{
+   content: " ";
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   background: url('../img/artworks-2yh5fWIrX6TyuevA-4B54UQ-t500x500.jpeg') center/ 50px auto no-repeat;
+   margin: 0 0px 0 0px;
+   
+}
+
+
+/*Третій блок*/
+
+.block-item-3{
+   padding: 15px 0 15px 50px;
+   border: 1px dotted #008000;
+   }
+
+.block-item-3::before{
+   content: " ";
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   background: url('../img/cover\ elton.jpeg') center/ 50px auto no-repeat;
+   margin: 0 0px 0 0px;
+   
+}
+
+/*Чотири блок*/
+
+
+.block-item-4{
+   padding: 15px 0 15px 50px;
+   border: 1px dotted #008000;
+   }
+
+.block-item-4::before{
+   content: " ";
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   background: url('../img/In_da_Club.jpeg') center/ 50px auto no-repeat;
+  
+   
+}
+
+/*п'ять  блок*/
+
+
+.block-item-5{
+   padding: 15px 0 15px 50px;
+   border: 1px dotted #008000;
+   }
+
+.block-item-5::before{
+   content: " ";
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   background: url('../img/R-10502742-1498767879-2313.jpeg') center/ 50px auto no-repeat;
+  
+   
+}
+
+
+/*6  блок*/
+
+
+.block-item-6{
+   padding: 15px 0 15px 50px;
+   border: 1px dotted #008000;
+   }
+
+.block-item-6::before{
+   content: " ";
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   background: url('../img/24783-orig.jpeg') center/ 50px auto no-repeat;
+  
+   
+}
+
+/*7  блок*/
+
+
+.block-item-7{
+   padding: 15px 0 15px 50px;
+   border: 1px dotted #008000;
+   }
+
+.block-item-7::before{
+   content: " ";
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   background: url('../img//In_da_Club.jpeg') center/ 50px auto no-repeat;
+  
+   
+}
+.block-item-1:nth-child(1),
+.block-item-3:nth-child(3),
+.block-item-5:nth-child(5),
+.block-item-7:nth-child(7)
+{
+   background-color: rgba(0, 128, 0, 0.212);
+}
+
+
