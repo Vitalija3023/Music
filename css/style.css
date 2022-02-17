@@ -293,9 +293,9 @@ color: rgb(167, 167, 167);
 
 }
 
-.block-list-song-menu li::after{
+/* .block-list-song-menu li::after{
    content: '. . . . . . . . . . . . . . . 3:50';
-}
+} */
 
 .block-list-song-menu li:hover{
    font-size: 18px;
@@ -314,7 +314,7 @@ color: rgb(167, 167, 167);
    display:none;
    width: 20%;
    height:10%;
-   margin: 0 0 0 500px;
+   margin: 0 0 0 100px;
 
 }
 
