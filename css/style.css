@@ -39,10 +39,12 @@ h1{
 .block-item{
    box-shadow:0 0 50px 50px #080808,0 0 100px 40px #fcfcfc9a;
    border-radius: 5px;
-   max-height: 500px;
+   max-height: 700px;
+   max-width: 700px;
    overflow: auto;
    margin: 100px 0 0 0;
    background:  linear-gradient(157deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6573223039215687) 43%, rgba(0,128,0,0) 100%, rgba(46,255,0,1) 100%), url('../img/singing-in-the-car.jpeg') center/ cover no-repeat;
+   
    /* padding:  0 0 0 150px; */
    
 }
@@ -92,10 +94,10 @@ border: 1px dotted #008000;
 .block-item-subtitle::after{
    content: " ";
    display: inline-block;
-   width: 50px;
+   width:400px;
    height: 30px;
-   background: url('../img/wowgif.gif') center / 300px 150px no-repeat;
-   padding:  0 0 0 400px;
+   background: url('../img/wowgif.gif') center / 300px no-repeat;
+   padding:  0 0 0 0px;
    
 
 }
