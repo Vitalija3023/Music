@@ -306,6 +306,35 @@ color: rgb(167, 167, 167);
    color: #008000;
 }
 
+.block-list-song-menu:visited{
+   color: #008000;
+}
+
+.block-list-song-img{
+   display: none;
+   width: 20%;
+   height:10%;
+   margin: 0 0 0 500px;
+
+}
+
+.block-list-song-img:target{
+   display: inline-block;
+   color: #008000;
+  
+   
+}
+
+.block-list-song-link{
+display: inline;
+}
+
+.block-list-song-img:hover{
+   box-shadow: 0 0 30px 5px #008000;
+
+}
+
+
 
 .web{
    margin: 20px 0;
