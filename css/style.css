@@ -311,7 +311,7 @@ color: rgb(167, 167, 167);
 }
 
 .block-list-song-img{
-   display: none;
+   display:none;
    width: 20%;
    height:10%;
    margin: 0 0 0 500px;
